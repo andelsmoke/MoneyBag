@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_main_friend"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    android:padding="10dp">
+    <!--<include layout="@layout/title_bar"/>-->
+
+    <!--<lecho.lib.hellocharts.view.LineChartView
+        android:id = "@+id/line_char_view"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:visibility = "gone"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spinner_sle_year"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/text_cost"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="1000"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="25sp"
+            android:textColor="#33B5E5"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

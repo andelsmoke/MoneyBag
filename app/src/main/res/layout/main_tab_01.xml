@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_main_weixin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc">
+
+    <!--<ListView
+        android:id="@+id/main_tab01_lv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_cost02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="25sp"
+            android:textColor="#33B5E5"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/main3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+</LinearLayout>
